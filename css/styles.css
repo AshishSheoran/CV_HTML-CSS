@@ -6,25 +6,35 @@ body {
 }
 
 h1 {
-    margin-top: 0px;
+    font-size: 5.625em;
+    margin: 50px auto 0;
     font-family: 'Sacramento',
     cursive;
+    color: #66BFBF;
 }
 
 h2 {
     font-family: 'Montserrat',
     sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat',
     sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #66BFBF;
 }
 
 /* ----- Class Containers ---- */
 
 .topContainer {
-    background-color: #8FBDD3;
+    background-color: #EAF9F5;
     padding-top: 10px;
     position: relative;
 }
@@ -43,12 +53,26 @@ h3 {
     left: 25%;
 }
 
-.middleContainer {
+.profile-pic {
     height: 200px;
     width: 200px;
 }
 
-.bottomContainer {
-    height: 200px;
-    width: 200px;
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }

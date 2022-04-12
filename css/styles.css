@@ -1,5 +1,6 @@
 /* ----- TAGS CONTAINERS ----- */
 body {
+    color: #40514E;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -19,6 +20,7 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -29,6 +31,24 @@ h3 {
 
 a {
     color: #11999E;
+    font-family: 'Montserrat';
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
 }
 
 /* ----- Class Containers ---- */
@@ -39,18 +59,30 @@ a {
     position: relative;
 }
 
+.middle-container {
+    margin: 100px 0;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
 .web {
     text-decoration: underline;
 }
 
 .top-cloud {
-    position: relative;
-    left: 18%;
+    position: absolute;
+    right: 300px;
+    top: 10px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 25%;
+    left: 250px;
+    bottom: 300px;
 }
 
 .profile-pic {
@@ -62,7 +94,6 @@ a {
     width: 50%;
     margin: 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .code-img {
@@ -75,6 +106,11 @@ a {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+.contact-message {
+    width: 50%;
+    margin: 40px auto 60px;
 }
 
 .btn {
@@ -107,8 +143,11 @@ a {
 .bottom-container {
     margin: 25px 0 0 0;
     background-color: #66BFBF;
+    padding: 50px 0 20px;
 }
 
-.author {
+.copyright {
     color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
